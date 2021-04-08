@@ -1,0 +1,143 @@
+/* INCLUDE HERE background, color, font-family, font-size,
+ height, margin, padding, text-align*/
+
+/* pseudo-classes too!*/
+
+body {
+  background: linear-gradient(purple, #0B525B);
+  background-size: cover, margin;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-attachment: fixed;
+  
+}
+
+
+.slim {
+  width: margin;
+    height: 1px;
+  background-color: beige;
+ border: 1px beige;
+
+}
+
+h1 {
+  font-family: futura, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ff4800 !important ;
+  font-size: 32px;
+}  
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #41EAD4;
+}
+
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #f72585 !important;
+}
+
+
+header {
+  background-color: #242F45;
+  padding: 1%;
+  padding-bottom: 16px;
+  padding-top: 6px;
+  background-size: cover;
+  color: fuchsia; 
+  margin-left: 0px;
+  margin-right: 0px;
+  text-transform: uppercase;
+  text-align: left !important;
+  border-width: 0px;
+  line-height: 5px;
+
+position: -webkit-sticky;
+position: sticky;
+top: 0px;
+
+}
+
+main {
+  padding: 15px;
+  color: #f72585;
+  text-align: center;
+  width: 600px; 
+  /*BODY/MAIN  for contact list NOT CENTERED!!*/
+}
+
+article {
+  text-align: center;
+}
+
+/*classes and links... then footer*/
+
+.prof {width: 300px;}
+
+.round {
+  border-style: solid;
+  border-color: #f72585;
+  border-radius: 50%;
+}
+
+.bullet {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+a {
+  color: aquamarine;
+  text-decoration: none;
+  margin: 1px;
+  padding: 6px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+a:link {color: aquamarine}
+a:visited {color: fuchsia}
+a:hover {color: #ff4800; background-color: black}
+a:active {color: lime}
+
+
+.link {
+  color: aquamarine;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+
+
+footer {
+ background-color: #312244;
+ background-size: cover;
+ color: #ff4800;
+ text-transform: uppercase;
+ padding: .5px;
+ padding-bottom: 10px;
+ text-align: center;
+ line-height: 2px;
+
+position: -webkit-sticky;
+position: sticky;
+bottom: 0px;
+
+}
+
+
+
+
+
+/* maybe use these coolers.co palettes: 
+-indigo iolite
+-... check the app saved palettes...
+*/
