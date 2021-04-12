@@ -70,7 +70,8 @@ main {
   color: #f72585;
   text-align: center;
   width: 600px; 
-  /*BODY/MAIN  for contact list NOT CENTERED!!*/
+  margin-left: auto;
+ margin-right: auto;
 }
 
 article {
@@ -138,6 +139,6 @@ bottom: 0px;
 
 
 /* maybe use these coolers.co palettes: 
--indigo iolite
+-indigo iolite/peocock... cyberpunk feels
 -... check the app saved palettes...
 */
